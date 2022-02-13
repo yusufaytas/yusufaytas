@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T18:45:28.970Z" agent="5.0 (Macintosh)" version="16.5.6" etag="1SF9XltDVBFNlZHumVJN" type="github"><diagram id="SGvKrE1oRVMR07QCt1xU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-13T19:06:01.442Z" agent="5.0 (Macintosh)" etag="nCji1Tjt1UcTR9R68bBe" version="16.5.6" type="github">
+  <diagram id="SGvKrE1oRVMR07QCt1xU" name="Page-1">
+    <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-5" value="Software Components" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-and-marketing-21/32/finance_team_crew_group-61-128.png;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-8" value="&lt;div&gt;Engineering&lt;/div&gt;&lt;div&gt;Team&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="255" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-9" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;startArrow=open;startFill=0;endFill=0;" edge="1" parent="1" source="rgmhT1kQBS3k-QSduBsI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="sourcePoint" />
+            <mxPoint x="250" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000000;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" vertex="1" parent="1">
+          <mxGeometry x="400" y="56" width="37" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-16" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000000;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" vertex="1" parent="1">
+          <mxGeometry x="440" y="56" width="37" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-18" value="&lt;div&gt;Engineering&lt;/div&gt;&lt;div&gt;Health Tasks&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Double_Loop-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="63" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#000000;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="235" y="-65" width="50" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-29" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.5" y="190" as="sourcePoint" />
+            <mxPoint x="259.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-2/50/user-group-team-duo-partner-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-2/50/user-group-team-duo-partner-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="195" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-40" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-2/50/user-group-team-duo-partner-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-2/50/user-group-team-duo-partner-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-42" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-2/50/user-group-team-duo-partner-128.png;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-43" value="Partners" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="208.5" y="250" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-45" value="Communicates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="253" y="165" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-46" value="&lt;div&gt;Identifies&lt;/div&gt;&lt;div&gt;Manages&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="308.5" y="30" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgmhT1kQBS3k-QSduBsI-47" value="&lt;div&gt;Adds new&lt;/div&gt;&lt;div&gt;debt&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="69" width="103" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
