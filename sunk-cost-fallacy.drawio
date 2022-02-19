@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T19:56:07.332Z" agent="5.0 (Macintosh)" version="16.5.6" etag="QzMiPXuCwcDp60rZn_Df" type="github"><diagram id="e-opUmSLlLxrSXrkcw4Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-19T20:05:06.555Z" agent="5.0 (Macintosh)" etag="MAGpTFfRGw6KnneJMDtX" version="16.5.6" type="github">
+  <diagram id="e-opUmSLlLxrSXrkcw4Z" name="Page-1">
+    <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="123.85" width="493" height="246.15" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--4" value="" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="330" y="57.32251886637247" width="55" height="131.50496226725505" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--12" value="" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="183.33333333333331" y="13.48753144395412" width="55" height="131.50496226725505" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.wave2;dy=0.3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry y="188.82748113362754" width="146.66666666666666" height="21.917493711209175" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.wave2;dy=0.3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="146.66666666666666" y="188.82748113362754" width="146.66666666666666" height="21.917493711209175" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.wave2;dy=0.3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="293.3333333333333" y="188.82748113362754" width="146.66666666666666" height="21.917493711209175" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--1" value="" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.misc.ship;rotation=15;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="36.666666666666664" y="57.32251886637247" width="385" height="131.50496226725505" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/harry-potter-outline-collection-1/60/39_-_Harry_Potter_-_Outline_-_Philosophers_Stone-128.png" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="366.66666666666663" y="106.44678912521306" width="61.81849315068493" height="61.81849315068493" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--17" value="No! It took me so much time to build it." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="qEjyHDJZ-2vNIfeqKC5--15">
+          <mxGeometry x="350" y="-13.849999999999994" width="143" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qEjyHDJZ-2vNIfeqKC5--16" value="If we don&#39;t get rid of that thing, the ship will sink" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="143" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
