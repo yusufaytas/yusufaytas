@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wp-prose-tools"
+version = "0.1.0"
+description = "WordPress XML export converter and prose quality ranker"
+requires-python = ">=3.9"
+dependencies = [
+    "nltk>=3.9",
+    "sumy>=0.11",
+    "scipy>=1.13",
+    "textstat>=0.7",
+    "lexicalrichness>=0.5",
+    "scikit-learn>=1.5",
+]
+
+[project.scripts]
+convert-wp = "convert_wp_xml_to_posts:main"
+generate-ratings = "generate_prose_ratings:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["prose_analyzer"]

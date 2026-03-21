@@ -19,6 +19,24 @@ NS = {
 }
 
 
+def export_to_jsonl(posts: list[dict], output_path: Path) -> None:
+    """Export posts as JSON Lines format (LLM optimized)."""
+    import json
+    with output_path.open("w", encoding="utf-8") as f:
+        for idx, post in enumerate(posts, 1):
+            json.dump({
+                "id": idx,
+                "title": post["title"],
+                "date": post["date"],
+                "url": post["url"],
+                "slug": post["slug"],
+                "categories": post["categories"] if post["categories"] else [],
+                "tags": post["tags"] if post["tags"] else [],
+                "content": post["content"],
+            }, f, ensure_ascii=False)
+            f.write("\n")
+
+
 def clean_content(raw: str) -> str:
     if not raw:
         return ""
@@ -93,46 +111,17 @@ def parse_posts(xml_path: Path) -> list[dict[str, str | list[str]]]:
     return posts
 
 
-def write_posts(posts: list[dict[str, str | list[str]]], source_xml: Path, output_path: Path) -> None:
-    lines: list[str] = []
-    lines.append("# CHATGPT SOURCE FILE: BLOG POSTS")
-    lines.append(f"# Source XML: {source_xml.name}")
-    lines.append(f"# Published posts with content: {len(posts)}")
-    lines.append("# Notes: Use for tone/topic reference. Do not copy phrases verbatim.")
-    lines.append("")
-
-    for idx, post in enumerate(posts, start=1):
-        categories = post["categories"]
-        tags = post["tags"]
-
-        lines.append(f"<<<POST_START_{idx:04d}>>>")
-        lines.append(f"TITLE: {post['title']}")
-        lines.append(f"DATE: {post['date']}")
-        lines.append(f"LAST_MODIFIED: {post['modified']}")
-        lines.append(f"AUTHOR: {post['author']}")
-        lines.append(f"URL: {post['url']}")
-        lines.append(f"SLUG: {post['slug']}")
-        lines.append(f"CATEGORIES: {', '.join(categories) if categories else 'None'}")
-        lines.append(f"TAGS: {', '.join(tags) if tags else 'None'}")
-        lines.append("CONTENT:")
-        lines.append(str(post["content"]))
-        lines.append(f"<<<POST_END_{idx:04d}>>>")
-        lines.append("")
-
-    output_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Convert WordPress WXR XML export to structured posts text file."
+        description="Convert WordPress WXR XML export to JSONL format."
     )
     parser.add_argument("input_xml", type=Path, help="Path to WordPress XML export file")
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
-        default=Path("posts.txt"),
-        help="Output file path (default: posts.txt)",
+        default=Path("posts.jsonl"),
+        help="Output file path (default: posts.jsonl)",
     )
     parser.add_argument(
         "--with-rankings",
@@ -145,8 +134,9 @@ def main() -> None:
         raise SystemExit(f"Input file not found: {args.input_xml}")
 
     posts = parse_posts(args.input_xml)
-    write_posts(posts, args.input_xml, args.output)
-    print(f"Wrote {args.output} with {len(posts)} posts.")
+    export_to_jsonl(posts, args.output)
+    
+    print(f"Wrote {args.output} with {len(posts)} posts in JSONL format.")
 
     if args.with_rankings:
         ranking_script = Path(__file__).resolve().parent / "generate_prose_ratings.py"
